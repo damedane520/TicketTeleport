@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-  document.querySelector('h1').textContent = '你按下了按鈕';
   // 获取按钮 A 元素
   const buttonA = document.getElementById('buttonA');
 
