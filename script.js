@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
   document.querySelector('h1').textContent = '你按下了按鈕';
-  // 获取按钮元素
-  const fetchButton = document.getElementById('fetchButton');
+  // 获取按钮 A 元素
+  const buttonA = document.getElementById('buttonA');
 
-  // 为按钮添加点击事件监听器
-  fetchButton.addEventListener('click', function() {
+  // 为按钮 A 添加点击事件监听器
+  buttonA.addEventListener('click', function() {
     // 发起 fetch 请求
-    fetch('https://api.example.com/data') // 将URL替换为你的API URL
+    fetch('8.8.8.8') // 将URL替换为你的API URL
       .then(response => {
         if (!response.ok) {
           throw new Error('网络请求失败');
