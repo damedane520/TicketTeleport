@@ -1,9 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
   // 获取按钮 A 元素
   const buttonA = document.getElementById('buttonA');
-
+  // 获取用于显示点击信息的元素
+  const infoDisplay = document.getElementById('infoDisplay');
+  
   // 为按钮 A 添加点击事件监听器
   buttonA.addEventListener('click', function() {
+    // 显示点击信息
+    infoDisplay.textContent = '你好厲害';
+    
     // 发起 fetch 请求
     fetch('8.8.8.8') // 将URL替换为你的API URL
       .then(response => {
