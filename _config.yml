@@ -7,6 +7,9 @@ show_downloads: true
 github:
   ticketplus_url: https://damedane520.github.io/TicketTeleport/ticketplus
   tixcraft_url: https://damedane520.github.io/TicketTeleport/tixcraft
+  kham_url: https://damedane520.github.io/TicketTeleport/kham
+  kktix_url: https://damedane520.github.io/TicketTeleport/kktix
+  
   # video_url: https://lepg5487.github.io/Stock_God/video
   # NovelAI_url: https://lepg5487.github.io/Stock_God/NovelAI
   # ChatGPT_url: https://lepg5487.github.io/Stock_God/ChatGPT
