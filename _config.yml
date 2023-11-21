@@ -1,8 +1,13 @@
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
-
 title: TicketTeleport
 description: TicketTeleport Convergence
-
 show_downloads: true
+github:
+  TicketTeleport_url: https://damedane520.github.io/TicketTeleport/
+  ticketplus_url: https://damedane520.github.io/TicketTeleport/ticketplus
+  # video_url: https://lepg5487.github.io/Stock_God/video
+  # NovelAI_url: https://lepg5487.github.io/Stock_God/NovelAI
+  # ChatGPT_url: https://lepg5487.github.io/Stock_God/ChatGPT
+  # MusicAI_url: https://lepg5487.github.io/Stock_God/MusicAI
